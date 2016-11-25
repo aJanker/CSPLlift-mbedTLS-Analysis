@@ -14,6 +14,7 @@
 #SBATCH --error=/scratch/janker/Masterarbeit/CSPLlift-mbedTLS-Analysis/log/err_%j
 #SBATCH --time=24:00:00
 #SBATCH --array=0-50
+#SBATCH --exclude=chimaira12,chimaira13,chimaira14,chimaira15,chimaira16,chimaira17
 
 path=$(pwd)
 
