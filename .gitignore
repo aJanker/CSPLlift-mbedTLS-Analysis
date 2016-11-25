@@ -3,6 +3,7 @@
 *.gz
 *.pi
 *.dbg
+*.config
 
 CMakeCache.txt
 CMakeFiles
