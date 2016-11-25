@@ -3,7 +3,7 @@
 path=$(cd "$(dirname "$0")"; pwd)
 
 filesToProcess() {
-  local listFile=evalutionFiles
+  local listFile=evaluationFiles
   cat $listFile
 }
 
