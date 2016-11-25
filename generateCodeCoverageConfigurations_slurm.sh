@@ -24,5 +24,5 @@ flags=" --bdd \
 filesToProcess|while read i; do
          echo "Analysing $path/$i"
          echo "With settings: $flags"
-	 sbatch -p chimaira  -A spl -n 1 -c 2 --time=01:00:00  --mem_bind=local --output=/dev/null --error=/dev/null $path/generateCodeConverageConfigurations_run.sh  $path/$i $flags
+	 sbatch -p chimaira  -A spl -n 1 -c 2 --time=01:00:00  --mem_bind=local --output=/dev/null --error=/dev/null $path/generateCodeCoverageConfigurations_run.sh  $path/$i $flags
 	done
