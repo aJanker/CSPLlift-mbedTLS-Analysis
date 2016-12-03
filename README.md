@@ -1,6 +1,6 @@
 # IFDS Analysis of mbedTLS
 
-Contains various scripts to run static IFDS data-flow analysis and sampling strategies with [CSPLlift](https://github.com/aJanker/CSPLlift) on OpenSSL.
+Contains various scripts to run static IFDS data-flow analysis and sampling strategies with [CSPLlift](https://github.com/aJanker/CSPLlift) on mbedTLS.
 
 The setup requires multiple steps. Contact me if there are any issues.
 
